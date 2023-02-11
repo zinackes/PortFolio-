@@ -1,0 +1,233 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="scroll.css">
+    <link rel="stylesheet" href="switch.css">
+    <link rel="stylesheet" href="loader.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://api.fontshare.com/v2/css?f[]=author@400&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat&family=Open+Sans&family=Oswald&family=Poppins&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Oswald&family=Poppins&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Portfolio de Mathys</title>
+</head>
+<body>
+    <div class="flex preloader" style="min-height: 100vh;">
+        <div class="loader"></div>
+    </div>
+    <main class="flex-direction">
+        <section class="first flex-direction">
+            <h1>Hello, I'm <br> {Your Name}</h1>
+            <p>A beginner in the front-end developpment.</p>
+        </section>
+
+
+        <section class="second reveal flex">
+                <img src="../assets/workspace-with-computer.png" alt="" style="max-width: 600px;">
+                <div class="presentation flex-direction">
+                    <h2 class="title">About me</h2>
+                    <p>Write your about me here
+                    </p>
+                </div>
+        </section>
+
+        <section class="third reveal">
+            <h2 class="title">Projects</h2>
+            <div class="projects flex">
+                <div class="project flex-direction">
+                   <img src="../assets/QRCODEIMG.png" alt="QrCode projects">
+                   <a href="">Exemple 1<br> 
+                    <span>November 30 2022</span></a>
+                </div>
+                <div class="project flex-direction">
+                   <img src="../assets/interactive-rating.png" alt="">
+                   <a href="" style="font-size: 17px;">Interactive rating component <br> 
+                    <span style="font-size: 14px;">November 30 2022</span></a>
+                </div>
+                <div class="project flex-direction">
+                   <img src="../assets/fylo_storage.png" alt="">
+                   <a href="">Fylo data storage <br> 
+                    <span>December 1 2022</span></a>
+                </div>
+                <div class="project flex-direction">
+                   <img src="../assets/pricing_component.png" alt="">
+                   <a href="">Pricing component <br> 
+                    <span>December 7 2022</span></a>
+                </div>
+                <div class="project flex-direction">
+                   <img src="" alt="QrCode projects">
+                   <a href="">Social media dashboard<br> 
+                    <span>November 30 2022</span></a>
+                </div>
+                <div class="project flex-direction">
+                   <img src="" alt="QrCode projects">
+                   <a href="">QrCode Revamp <br> 
+                    <span>November 30 2022</span></a>
+                </div>
+                <div class="project flex-direction">
+                   <img src="" alt="QrCode projects">
+                   <a href="">Interactive rating component Revamp<br> 
+                    <span>November 30 2022</span></a>
+                </div>
+            </div>
+        </section>
+
+        <p class="reveal">Choose the format:</p>
+
+        <div class="flex reveal">
+            <p style="padding-right: 10px;" id="List" class="list">List</p>
+            <label class="switch">
+                <input type="checkbox" id="switch_button">
+                <span class="slider round"></span>
+            </label>
+            <p style="padding-left: 10px;" id="Table" class="">Table</p>
+        </div>
+
+        <section id="pas_tableau" class="" style="margin-bottom: 15px;">
+            <div id="animationToLeftList" class="animate__animated ">
+        
+                <section class="four reveal">
+                    <h2 class="title">Skills Acquired</h2>
+                    <div class="skills flex">
+                        <div class="flex-direction">
+                            <img src="../assets/icons8-html-5-40.png" alt="HTML 5 Logo">
+                            <p>HTML 5</p>
+                        </div>
+                        <div class="flex-direction">
+                            <img src="../assets/icons8-css3-40.png" alt="CSS 3 logo">
+                            <p>CSS 3</p>
+                        </div>
+                        <div class="flex-direction">
+                            <img src="../assets/icons8-flexbox-40.png   " alt="Flexbox representation">
+                            <p>Flexbox</p>
+                        </div>
+                        <div class="flex-direction">
+                            <img src="../assets/icons8-git-40.png" alt="Git Logo">
+                            <p>Git/GitHub</p>
+                        </div>
+                    </div>
+                </section>
+            
+                <section class="five reveal">
+                    <h2 class="title">Skill Learning</h2>
+                    <div class="skills flex-direction">
+                        <div class="flex-direction">
+                            <img src="../assets/icons8-javascript-40.png" alt="Javascript Logo">
+                            <p>Javascript*</p>
+                        </div>
+                        <p>*Im learning Javascript with 
+                            <a href="https://www.theodinproject.com/paths/foundations/courses/foundations">
+                                The Odin Project</a></p>
+                    </div>
+                </section>
+            
+                <section class="six reveal">
+                    <h2 class="title">Languages Acquired</h2>
+                    <div class="skills flex">
+                        <div class="flex-direction">
+                            <img src="../assets/icons8-france-40.png" alt="Javascript Logo">
+                            <p>French (native)</p>
+                        </div>
+                        <div class="flex-direction">
+                            <img src="../assets/icons8-great-britain-40.png" alt="Javascript Logo">
+                            <p>English</p>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+        </section>
+
+
+
+        <section id="tableau" class="hidden reveal">
+            <div id="animationToLeftTable" class="animate__animated ">
+
+                <table border="">
+                    <tr>
+                        <th></th>
+                        <th>Acquired</th>
+                        <th>Learning</th>
+                    </tr>
+                    <tr>
+                        <th>Skills</th>
+                        <th style="padding: 8px; display: flex; gap: 10px;">
+                        <div class="flex-direction">
+                            <img src="../assets/icons8-html-5-40.png" alt="HTML 5 Logo">
+                            <p style="margin-bottom: 0px; margin-top: 5px; color: white; font-weight: 400;">
+                                HTML 5</p>
+                        </div>
+                        <div class="flex-direction">
+                            <img src="../assets/icons8-css3-40.png" alt="CSS 3 logo">
+                            <p style="margin-bottom: 0px; margin-top: 5px; color: white; font-weight: 400;">
+                                CSS 3</p>
+                        </div>
+                        <div class="flex-direction">
+                            <img src="../assets/icons8-flexbox-40.png   " alt="Flexbox representation">
+                            <p style="margin-bottom: 0px; margin-top: 5px; color: white; font-weight: 400;">
+                                Flexbox</p>
+                        </div>
+                        <div class="flex-direction">
+                            <img src="../assets/icons8-git-40.png" alt="Git Logo">
+                            <p style="margin-bottom: 0px; margin-top: 5px; color: white; font-weight: 400;">
+                                Git/GitHub</p>
+                        </div>
+                        </th>
+    
+                        <th style="padding: 8px;">
+                        <div class="flex-direction">
+                            <img src="../assets/icons8-javascript-logo-40.png" alt="Javascript Logo">
+                            <p style="margin-bottom: 0px; margin-top: 5px; color: white; font-weight: 400;">
+                                Javascript*</p>
+                        </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Languages</th>
+    
+                        <th style="padding: 8px; display: flex; gap: 30px; justify-content: center; align-items: center;">
+                        <div class="flex-direction">
+                            <img src="../assets/icons8-france-40.png" alt="Javascript Logo">
+                            <p style="margin-bottom: 0px; margin-top: 5px; color: white; font-weight: 400;">French (native)</p>
+                        </div>
+                        <div class="flex-direction">
+                            <img src="../assets/icons8-great-britain-40.png" alt="Javascript Logo">
+                            <p style="margin-bottom: 0px; margin-top: 5px; color: white; font-weight: 400;">English</p>
+                        </div>
+                        </th>
+                    </tr>
+                </table>
+                
+                <p style="margin-bottom: 33.2px; margin-top: 15px; font-size: 13px; text-align: center;">*Im learning Javascript with 
+                    <a href="https://www.theodinproject.com/paths/foundations/courses/foundations">
+                        The Odin Project</a></p>
+
+            </div>
+        </section>
+
+
+
+
+        <footer>
+            <ul class="flex">
+                <li>
+                    <a href="https://github.com/zinackes">
+                    <img src="../assets/icons8-github-40.png" alt="Github Logo"></a></li>
+                <li><a href="https://www.linkedin.com/in/mathys-sclafer-199726250/">
+                    <img src="../assets/icons8-linkedin-circled-40.png" alt="Linkedin Logo"></a></li>
+                <li><a href="https://www.frontendmentor.io/profile/zinackes">
+                    <img src="../assets/favicon-32x32.png" alt="frontendmentor Logo"></a></li>
+            </ul>
+        </footer>
+
+    </main>
+
+    
+</body>
+<script src="index.js"></script>
+<script src="loader.js"></script>
+</html>

@@ -1,0 +1,164 @@
+body{
+    font-family: 'Comfortaa', sans-serif;
+    background-color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-direction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main{
+    color: #fff;
+}
+
+.first{
+    min-height: 100vh;
+    margin-bottom: 50px;
+
+}
+
+.first > h1{
+    font-size: 110px;
+    font-weight: 400;
+    margin: 0px;
+    text-align: center;
+}
+.first > p{
+    font-size: 22px;
+    text-align: center;
+
+}
+
+.presentation{
+    padding: 20px;
+    max-width: 500px;
+    line-height: 1.55;
+    transition: .3s ease-in-out;
+}
+
+.presentation > p{
+    letter-spacing: .1px;
+    font-size: 20px;
+
+}
+.presentation > p > span > a{
+    color: #43A6C6;
+}
+
+.second{
+    margin-bottom: 150px;
+}
+
+
+.title{
+    font-weight: 400;
+    text-align: center;
+    font-size: 40px;
+}
+
+.third{
+    margin-bottom: 100px;
+}
+
+
+.projects{
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1300px;
+}
+
+.project{
+    padding: 13px;
+    background-color: #0d0d0d;
+    border-radius: 10px;
+}
+
+.project > img{
+    border-radius: 8px;
+    width: 270px;
+    height: 188px;
+}
+
+.project > a{
+    margin-top: 17px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    max-width: 270px;
+    line-height: 23px;
+}
+
+.third a span{
+    font-size: 15px;
+    color: #777777;
+}
+
+.list{
+    color: #2196F3;
+    transition: .3s ease-in-out;
+}
+.table{
+    color: #2196F3;
+    transition: .3s ease-in-out;
+}
+
+
+.skills{
+    gap: 30px;
+}
+
+.five a{
+    color: #43A6C6;
+}
+
+
+
+footer{
+    background-color: #333333;
+    width: 100%;
+}
+
+footer > a{
+    height: 40px;
+}
+
+
+
+footer > ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-inline-start: 0;
+}
+
+
+
+.hidden{
+    display: none;
+}
+
+
+table{
+    margin-top: 33.2px;
+}
+
+
+.fr, .en{
+    display: none;
+}
+
+.active_lang{
+    display:block;
+}
